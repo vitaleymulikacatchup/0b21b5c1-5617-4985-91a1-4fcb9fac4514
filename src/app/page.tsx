@@ -38,11 +38,6 @@ export default function Home() {
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy2D
           variant="reveal"
-          steps={[
-            { title: 'Step 1', description: 'Get your wallet ready!', image: '', position: 'left', isCenter: false },
-            { title: 'Step 2', description: 'Purchase MemeTech Coin!', image: '', position: 'center', isCenter: true },
-            { title: 'Step 3', description: 'Join the community!', image: '', position: 'right', isCenter: false },
-          ]}
         />
       </div>
       <div id="tokenomics" data-section="tokenomics">
