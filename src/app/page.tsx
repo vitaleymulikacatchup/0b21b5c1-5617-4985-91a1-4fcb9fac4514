@@ -30,16 +30,19 @@ export default function Home() {
           copiedText="Copied!"
         />
       </div>
+
       <div id="about" data-section="about">
         <SplitAbout
           description="MemeTech Coin embraces the spirit of memes and technology, creating a vibrant and engaging ecosystem."
         />
       </div>
+
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy2D
           variant="reveal"
         />
       </div>
+
       <div id="tokenomics" data-section="tokenomics">
         <TextGridTokenomics
           title="MemeTech Tokenomics"
@@ -51,6 +54,7 @@ export default function Home() {
           ]}
         />
       </div>
+
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
@@ -67,7 +71,6 @@ export default function Home() {
               { label: 'Contact', onClick: () => console.log('Contact Clicked') },
             ] },
           ]}
-          copyrightText="© 2023 MemeTech. All rights reserved."
           onPrivacyClick={() => console.log('Privacy Policy Clicked')}
         />
       </div>
